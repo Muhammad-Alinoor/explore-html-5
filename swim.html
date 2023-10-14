@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .swimming {
+            width: 400px;
+            height: 800px;
+            background-color: rgba(208, 255, 0, 0.164);
+        }
+
+        .swimming div {
+
+            margin: 15px auto;
+            padding: 5px;
+            width: 50%;
+        }
+
+        #ring {
+            position: relative;
+            z-index: 1;
+        }
+
+        #boy {
+            position: relative;
+            top: 100px;
+            z-index: 2;
+        }
+
+        #water {
+            position: relative;
+            top: -100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="swimming">
+        <div id="boy"><img src="media/images/boy.svg" alt=""></div>
+        <div id="ring"><img src="media/images/ring.svg" alt=""></div>
+        <div id="water"><img src="media/images/water.svg" alt=""></div>
+    </section>
+</body>
+
+</html>

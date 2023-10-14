@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="nav.html">Home</a></li>
+                <li><a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="audio-video.html">Media</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <h1 style="text-align: center;">Exploring Form</h1>
+    <h1>Jamaler Ma Special Pitha expo</h1>
+    <form action="">
+        <p>Name: <input type="text" name="name" id="" placeholder="Enter Your Name Here: "></p>
+        <p>Email: <input type="email" name="email" id="" placeholder="Enter Your Name Here: "></p>
+        <h2>Create fieldset here</h2>
+        <fieldset>
+            <legend>Select Your Pithas:</legend>
+            <p><label for="chitoy"><input type="radio" name="Pitha" id="chitoy">Chitoy</label></p>
+            <p><label for="vapa"><input type="radio" name="Pitha" id="vapa">Vapa</label></p>
+            <p><label for="puli"><input type="radio" name="Pitha" id="puli">Puli</label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Select Your Vorta</legend>
+            <p><label for="sorish"><input type="checkbox" name="Vorta" id="sorish">Sorisha Vorta</label></p>
+            <p><label for="morich"><input type="checkbox" name="Vorta" id="morich">Moricher Vorta</label></p>
+            <p><label for="shutki"><input type="checkbox" name="Vorta" id="shutki">Shutki Vorta</label></p>
+        </fieldset>
+        <p>Instructions: <br>
+            <textarea name="Special" id="" cols="30" rows="10">
+        </textarea>
+
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>

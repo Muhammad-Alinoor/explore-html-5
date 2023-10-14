@@ -5,32 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SVG exploring</title>
+    <style>
+        main {
+            display: flex;
+        }
+
+        .circle {
+            margin-left: 250px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Draw a rectangle</h1>
-    <svg style="border:2px solid blue; width:500px; height:500px;">
-        <rect height="500" width="500" fill="green">
+    <main>
+        <section class="rectangle">
+            <h1>Draw a rectangle</h1>
+            <svg style="border:2px solid blue; width:500px; height:500px;">
+                <rect height="500" width="500" fill="green">
 
-        </rect>
-        <rect x="220" y="220" width="50" height="50" fill="red" stroke="black">
+                </rect>
+                <rect x="220" y="220" width="50" height="50" fill="red" stroke="black">
 
-        </rect>
-        <rect x="10" y="10" width="50" height="50" fill="red" stroke="black">
+                </rect>
+                <rect x="10" y="10" width="50" height="50" fill="red" stroke="black">
 
-        </rect>
+                </rect>
 
-        <rect x="440" y="10" width="50" height="50" fill="red" stroke="black">
+                <rect x="440" y="10" width="50" height="50" fill="red" stroke="black">
 
-        </rect>
-        <rect x="10" y="440" width="50" height="50" fill="red" stroke="black">
+                </rect>
+                <rect x="10" y="440" width="50" height="50" fill="red" stroke="black">
 
-        </rect>
+                </rect>
 
-        <rect x="440" y="440" width="50" height="50" fill="red" stroke="black">
+                <rect x="440" y="440" width="50" height="50" fill="red" stroke="black">
 
-        </rect>
-    </svg>
+                </rect>
+            </svg>
+        </section>
+        <section class="circle">
+            <h1>Draw a Circle</h1>
+            <svg style="border: 2px solid ;" width="500" height="500">
+                <circle cx="220" cy="220" r="200" fill="goldenrod"></circle>
+                <circle cx="150" cy="150" r="60" fill="black"></circle>
+                <circle cx="300" cy="150" r="60" fill="black"></circle>
+                <path d="M150 270 300 270" stroke="black" stroke-width="10" />
+
+            </svg>
+        </section>
+    </main>
+
 </body>
 
 </html>
